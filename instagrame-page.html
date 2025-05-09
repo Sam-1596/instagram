@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Instagram Video Downloader</title>
+        <!-- Bootstrap 5.3 CSS -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+            rel="stylesheet">
+        <link rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'
+            rel='stylesheet'>
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+
+    <body>
+        <!-- ========================== header =========================== -->
+        <header class="bg-white shadow-sm">
+            <div class="container">
+                <!-- Navbar -->
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container">
+                        <!-- Logo -->
+                        <a
+                            class="navbar-brand fw-bold d-flex align-items-center"
+                            href="#">
+                            <img src="assets/images/transformed.png" alt
+                                class="img-fluid"
+                                style="height: 50px;width: 100px;">
+                        </a>
+
+                        <!-- Right Side -->
+                        <div class="d-flex align-items-center">
+                            <a href="facebook-page.html"
+                                class="text-dark me-3 text-decoration-none">Facebook</a>
+                            <a href="instagrame-page.html"
+                                class="text-dark me-3 text-decoration-none">Instagram</a>
+
+                            <!-- Language Dropdown -->
+                            <div class="dropdown">
+                                <button class="btn btn-light dropdown-toggle"
+                                    type="button" id="languageDropdown"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    EN
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-end"
+                                    aria-labelledby="languageDropdown">
+                                    <li><a class="dropdown-item" href="#">🇺🇸
+                                            English</a></li>
+                                    <li><a class="dropdown-item" href="#">🇫🇷
+                                            French</a></li>
+                                    <li><a class="dropdown-item" href="#">🇩🇪
+                                            German</a></li>
+                                    <li><a class="dropdown-item" href="#">🇪🇸
+                                            Spanish</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!-- ========================== header end =========================== -->
+        <section class="hero-section text-center text-white py-5"
+            style="background: linear-gradient(90deg, #7b2ff7, #f107a3);">
+            <div class="container">
+                <!-- Top Buttons -->
+                <div class="d-flex justify-content-center flex-wrap gap-2 mb-3">
+                    <button class="btn btn-light"><i class="bx bx-video"></i>
+                        Video</button>
+                    <button class="btn btn-light"><i class="bx bx-image"></i>
+                        Photo</button>
+                    <button class="btn btn-light"><i class="bx bx-film"></i>
+                        Reels</button>
+                    <button class="btn btn-light"><i class="bx bx-book"></i>
+                        Story</button>
+                    <button class="btn btn-light"><i class="bx bx-tv"></i>
+                        IGTV</button>
+                    <button class="btn btn-light"><i class="bx bx-carousel"></i>
+                        Carousel</button>
+                    <button class="btn btn-light"><i class="bx bx-show"></i>
+                        Viewer</button>
+                </div>
+
+                <!-- Heading -->
+                <h1 class="fw-bold"> <img src="assets/images/insta.png" alt
+                        class="img-fluid bg-white p-1 rounded" style="height: 75px;">
+                    Instagram Video Downloader</h1>
+                <p class="mb-4">Download Videos from Instagram</p>
+
+                <!-- Input Box -->
+                <div class="d-flex justify-content-center">
+                    <div class="input-group w-50">
+                        <input type="text" class="form-control p-4"
+                            placeholder="Insert Instagram link here">
+                        <button class="btn btn-warning"><i
+                                class="bx bx-download"></i> Download</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ===================== Download Instagram Videos ============================== -->
+        <section class="download-videos">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <!-- <div class="col-10 rounded">
+                    <div class="card mb-3 shadow-lg border-0">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="assets/images/card_index.webp" alt="Download Instagram Videos" class="img-fluid h-100" style="border-top-left-radius:5px ; border-bottom-left-radius: 5px;" />
+                            </div>
+                            <div class="col-md-8 p-3">
+                                <div class="card-body">
+                                    <h2 class="card-title text-primary">Download Instagram Videos</h2>
+                                    <p class="card-text" style="letter-spacing: 1px; line-height: 25px; color: grey;">Discover a world of engaging content on Instagram and bring your favorite videos closer with FastDl. This simple online tool allows you to easily download Instagram videos anytime without restrictions. FastDl makes it easy to download any number of videos for offline viewing again in just a few simple clicks!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                    <div class="col-lg-10 mt-5">
+                        <h1 class="text-primary text-center">How to
+                            download video...</h1>
+                        <div
+                            class="row justify-content-center server-client mt-5">
+                            <div class="col-12 col-sm-6 col-lg-4 mt-md-0 mt-3">
+                                <div class="card-client">
+                                    <div class="user-picture">
+                                        <svg stroke="currentColor"
+                                            fill="currentColor" stroke-width="0"
+                                            viewBox="0 0 24 24" height="50"
+                                            width="50"
+                                            xmlns="http://www.w3.org/2000/svg"><path
+                                                fill-rule="evenodd"
+                                                d="M11.995499,0 C10.9272763,2.61898783 10.2829772,4.33212022 9.09364861,6.87325951 C9.82285899,7.64621596 10.7179267,8.54636058 12.1714997,9.56299285 C10.6087581,8.91993273 9.54277553,8.27431817 8.74615646,7.60436135 C7.22404876,10.7804724 4.83934636,15.3047005 0,24 C3.8035621,21.8041428 6.75200705,20.4503725 9.49981901,19.9338097 C9.38183641,19.4263273 9.31474077,18.8773854 9.31929729,18.3046251 L9.32381903,18.1827747 C9.38418076,15.7459387 10.6518189,13.8720119 12.1534614,13.9992474 C13.6551031,14.1264836 14.8223099,16.2062608 14.7619552,18.6430989 C14.7506091,19.1016345 14.6988943,19.5427398 14.6085152,19.9518612 C17.3264906,20.483546 20.2434156,21.8338506 23.9955134,24 C23.2556658,22.6379048 22.5952972,21.4100753 21.9646676,20.2406911 C20.9713321,19.4707837 19.9352208,18.4687462 17.8217601,17.3839783 C19.2744348,17.7614433 20.3145182,18.1969375 21.1252451,18.6837145 C14.7134752,6.74608943 14.1942543,5.15982659 11.995499,0 L11.995499,0 Z"></path></svg>
+                                    </div>
+                                    <p class="name-client">
+                                        Copy Video link
+                                    </p>
+                                    <p class="mt-1">Lorem ipsum dolor sit amet
+                                        consectetur adipisicing elit.
+                                        Recusandae, harum.</p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg-4 mt-md-0 mt-3">
+                                <div class="card-client">
+                                    <div class="user-picture">
+                                        <svg stroke="currentColor"
+                                            fill="currentColor" stroke-width="0"
+                                            viewBox="0 0 448 512" height="50"
+                                            width="50"
+                                            xmlns="http://www.w3.org/2000/svg"><path
+                                                d="M0 93.7l183.6-25.3v177.4H0V93.7zm0 324.6l183.6 25.3V268.4H0v149.9zm203.8 28L448 480V268.4H203.8v177.9zm0-380.6v180.1H448V32L203.8 65.7z"></path></svg>
+                                    </div>
+                                    <p class="name-client">
+                                        Paste Video Link
+                                    </p>
+                                    <p class="mt-1">Lorem ipsum dolor sit amet
+                                        consectetur adipisicing elit.
+                                        Recusandae, harum.</p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg-4 mt-md-0 mt-3">
+                                <div class="card-client">
+                                    <div class="user-picture">
+                                        <svg stroke="currentColor"
+                                            fill="currentColor" stroke-width="0"
+                                            viewBox="0 0 24 24" height="50"
+                                            width="50"
+                                            xmlns="http://www.w3.org/2000/svg"><path
+                                                fill="none"
+                                                d="M0 0h24v24H0V0z"></path><path
+                                                d="M21 2H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h7l-2 3v1h8v-1l-2-3h7c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 12H3V4h18v10z"></path></svg>
+                                    </div>
+                                    <p class="name-client">
+                                        Download Video
+                                    </p>
+                                    <p class="mt-1">Lorem ipsum dolor sit amet
+                                        consectetur adipisicing elit.
+                                        Recusandae, harum.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ===================== Download Instagram Videos end ============================== -->
+        <!-- ===================== ABOUT US ============================== -->
+        <section class="about-us">
+            <div class="container">
+                <div class="row justify-content-center mt-5">
+                    <div class="col-lg-10">
+                        <h1 class="text-primary text-center">FastDl
+                            Downloader</h1>
+                        <hr style="color: blue;">
+                        <div class="row align-items-center mt-5">
+                            <div class="col-md-6">
+                                <img src="assets/images/card_index.webp" alt
+                                    class="img-fluid h-100 rounded shadow">
+                            </div>
+                            <div class="col-md-6 mt-md-0 mt-5">
+                                <h2 class="fw-bold">ABOUT US </h2>
+                                <p
+                                    style="letter-spacing: 1px; line-height: 25px; color: grey;">Lorem
+                                    ipsum dolor sit amet, consectetur
+                                    adipisicing elit. Non ullam quam nemo totam
+                                    ex consequatur temporibus reiciendis dicta
+                                    fugiat aperiam. Nulla suscipit
+                                    necessitatibus consequuntur dolorem aliquam
+                                    placeat sed saepe vel perspiciatis, ipsa
+                                    beatae fugit eos voluptatibus sequi eveniet
+                                    libero, ad deleniti neque tempora pariatur
+                                    optio velit ex, temporibus in! Voluptatem.
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Modi eius quasi blanditiis
+                                    deleniti magni porro. Vitae eius autem ullam
+                                    inventore?</p>
+                            </div>
+                        </div>
+                        <p class="mt-4"
+                            style="letter-spacing: 1px; line-height: 25px; color: grey;">Lorem,
+                            ipsum dolor sit amet consectetur adipisicing elit.
+                            Placeat totam maxime deserunt perspiciatis
+                            architecto praesentium, velit amet expedita dolor
+                            unde fuga harum aperiam facilis! Eius est impedit
+                            magni ex sed! Lorem ipsum, dolor sit amet
+                            consectetur adipisicing elit. Molestias iste
+                            necessitatibus incidunt quo eius. Asperiores
+                            deleniti similique pariatur atque nisi id nulla non
+                            facere officiis omnis libero totam temporibus optio
+                            voluptates itaque iusto cupiditate aut amet impedit,
+                            quam sit, in fuga quos! Dolorum modi reprehenderit
+                            eos ducimus, hic architecto fuga!</p>
+                    </div>
+                </div>
+                <!-- -================== Faqs end ===========================  -->
+            </div>
+        </section>
+        <!-- ===================== ABOUT US end ============================== -->
+        <!-- ===================== Vedio card Videos ============================== -->
+        <section class="videos-card">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10 mt-5">
+                        <div class="row align-items-center rounded g-0 shadow p-md-0 p-5"
+                            style="background: linear-gradient(90deg, #7b2ff7, #f107a3);">
+                            <div class="col-12 col-md-5 text-center">
+                                <img src="assets/images/app.webp"
+                                    alt="Mobile App" class="img-fluid rounded">
+                            </div>
+                            <div class="col-12 col-md-7 text-white">
+                                <h2 class="fw-bold">Download with mobile
+                                    app</h2>
+                                <p>Download any photos, videos, reels, IGTV in
+                                    one click! Our app provides fast,
+                                    high-resolution downloads without
+                                    watermarks, making it an ideal choice for
+                                    downloading Instagram content.</p>
+                                <a href="#" class="btn btn-light fw-bold px-5">
+                                    <i class="bx bx-download"></i> Install now
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ===================== Vedio card Videos end ============================== -->
+        <!-- ===================== Faqas ============================== -->
+        <section class="download-videos py-5">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10 mt-5">
+                        <h1 class="text-primary text-center">Frequently asked
+                            questions (FAQ)</h1>
+                        <div class="accordion mt-5">
+                            <div class="accordion-item">
+                                <button id="accordion-button-1"
+                                    aria-expanded="false"><span
+                                        class="accordion-title">Why is the moon
+                                        sometimes out during the
+                                        day?</span><span class="icon"
+                                        aria-hidden="true"></span></button>
+                                <div class="accordion-content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna
+                                        aliqua. Elementum sagittis vitae et leo
+                                        duis ut. Ut tortor pretium viverra
+                                        suspendisse potenti.</p>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <button id="accordion-button-2"
+                                    aria-expanded="false"><span
+                                        class="accordion-title">Why is the sky
+                                        blue?</span><span class="icon"
+                                        aria-hidden="true"></span></button>
+                                <div class="accordion-content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna
+                                        aliqua. Elementum sagittis vitae et leo
+                                        duis ut. Ut tortor pretium viverra
+                                        suspendisse potenti.</p>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <button id="accordion-button-3"
+                                    aria-expanded="false"><span
+                                        class="accordion-title">Will we ever
+                                        discover aliens?</span><span
+                                        class="icon"
+                                        aria-hidden="true"></span></button>
+                                <div class="accordion-content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna
+                                        aliqua. Elementum sagittis vitae et leo
+                                        duis ut. Ut tortor pretium viverra
+                                        suspendisse potenti.</p>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <button id="accordion-button-4"
+                                    aria-expanded="false"><span
+                                        class="accordion-title">How much does
+                                        the Earth weigh?</span><span
+                                        class="icon"
+                                        aria-hidden="true"></span></button>
+                                <div class="accordion-content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna
+                                        aliqua. Elementum sagittis vitae et leo
+                                        duis ut. Ut tortor pretium viverra
+                                        suspendisse potenti.</p>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <button id="accordion-button-5"
+                                    aria-expanded="false"><span
+                                        class="accordion-title">How do airplanes
+                                        stay up?</span><span class="icon"
+                                        aria-hidden="true"></span></button>
+                                <div class="accordion-content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna
+                                        aliqua. Elementum sagittis vitae et leo
+                                        duis ut. Ut tortor pretium viverra
+                                        suspendisse potenti.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ===================== Faqas end ============================== -->
+
+        <hr>
+        <footer class="text-center py-4">
+            <div class="container">
+                <a href="#" class="d-block mb-2">
+                    <img src="assets/images/transformed.png" alt="FastDL Logo">
+                </a>
+                <nav class="mb-2">
+                    <a href="#"
+                        class="mx-2 text-dark text-decoration-none">Video</a> |
+                    <a href="#"
+                        class="mx-2 text-dark text-decoration-none">Photo</a> |
+                    <a href="#"
+                        class="mx-2 text-dark text-decoration-none">Reels</a> |
+                    <a href="#"
+                        class="mx-2 text-dark text-decoration-none">Story</a> |
+                    <a href="#"
+                        class="mx-2 text-dark text-decoration-none">Viewer</a> |
+                    <a href="#"
+                        class="mx-2 text-dark text-decoration-none">Igtv</a> |
+                    <a href="#"
+                        class="mx-2 text-dark text-decoration-none">Carousel</a>
+                </nav>
+                <nav class="mb-2">
+                    <a href="#"
+                        class="mx-2 text-dark text-decoration-none">Contact</a>
+                    |
+                    <a href="#"
+                        class="mx-2 text-dark text-decoration-none">Privacy
+                        Policy</a> |
+                    <a href="#"
+                        class="mx-2 text-dark text-decoration-none">Terms &
+                        Conditions</a>
+                </nav>
+                <nav class="mb-3">
+                    <a href="#"
+                        class="mx-2 text-dark text-decoration-none">Horoscope</a>
+                    |
+                    <a href="#"
+                        class="mx-2 text-dark text-decoration-none">Tiktok Video
+                        Downloader</a>
+                </nav>
+                <hr class="mt-5">
+                <p class="text-muted mb-0 mt-3">&copy; 2020-2025 FastDL. All
+                    rights reserved.</p>
+            </div>
+        </footer>
+
+        <!-- ===================== Download Instagram Videos end ============================== -->
+
+        <!-- Bootstrap 5.3 JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+
+</html>
